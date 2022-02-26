@@ -6,17 +6,22 @@
 h1{
 font-family: cursive;
 font-weight: bolder;
-font-size: 60px;
+font-size: 35px;
 color: palevioletred;
+margin-left: 100px;
+
 }
 
+ 
 .flexy{
   display:flex;
-  justify-content: center;
+  justify-content: space-evenly;
+ 
+ 
 }
 
 .login, .logout{
-  margin-top:50px;
+  margin-top:30px;
   height: 50px;
   border-radius: 7px;
   border: none;
@@ -24,14 +29,15 @@ color: palevioletred;
   color: gray;
   font-family: cursive;
   
-  
+
 }
 
 .login{
-  margin-left: 800px;
+  margin-left: 240px;
   background-color: rgb(139, 181, 230);
 }
 
 .logout{
   background-color: rgb(225, 230, 187);
+  margin-right:220px;
 }
